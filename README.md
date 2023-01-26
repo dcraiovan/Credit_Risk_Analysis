@@ -7,17 +7,22 @@ The following Machine-Learning example uses a variety of credit-related risk fac
 ## Results
 
 The following are the results observed.
+
+### Oversampling, Undersampling & Combination
+
 ![image](https://user-images.githubusercontent.com/111898553/214760038-5357f5d0-c5cd-4455-ba0a-ae51f72bf04a.png)
 
 
 ![image](https://user-images.githubusercontent.com/111898553/214760095-537cb66e-7560-44f9-b79c-c3902353b37f.png)
 
 
+The Logistic Regression model using the SMOTEENN Combination Re-Sampler had the best balanced accuracy score at 79.8%.
+The Logistic Regression model using the Smote Oversampler had the best recall score at 88%.
+Of the models, both the Logistic Regression model using the SMOTEENN Combination Re-Sampler and the model using the Smote Oversampler had the best geometric mean scores at 79%.
 
-Of the 4 models, the Logistic Regression model using the SMOTEENN Combination Re-Sampler had the best balanced accuracy score at 79.8%.
-Of the 4 models, the Logistic Regression model using the Smote Oversampler had the best recall score at 88%.
-Of the 4 models, both the Logistic Regression model using the SMOTEENN Combination Re-Sampler and the model using the Smote Oversampler had the best geometric mean scores at 79%.
+### Ensemble Learners
 
+![image](https://user-images.githubusercontent.com/111898553/214760762-9c7efb71-79ba-41b1-9f5f-e3627d92baea.png)
 
 
 
